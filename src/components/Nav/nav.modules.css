@@ -261,7 +261,7 @@ a {
   color: #242120;
 }
 
-p .customer-name {
+p.customer-name {
   font-weight: 600 !important;
 }
 
