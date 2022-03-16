@@ -129,11 +129,11 @@ const NavBar = () => {
         <div className='gallery'>
           <img src={ellipse1} alt='ellipse1' />
 
-          <div>Joseph Ike</div>
-          <div>
+          <p className='customer-name'>Joseph Ike</p>
+          <p>
             Ikeja
             <span>Customer</span>
-          </div>
+          </p>
 
           <div className='desc'>
             Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
@@ -147,7 +147,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={ellipse2} alt='ellipse2' />
-          <div>Adetola Fashina</div>
+          <p className='name'>Adetola Fashina</p>
           <div>
             Ikeja
             <span>Customer</span>
@@ -166,7 +166,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={ellipse3} alt='ellipse3' />
-          <div>Emmanuel Fayemi</div>
+          <p className='name'>Emmanuel Fayemi</p>
           <div>
             Ikeja
             <span>Customer</span>
@@ -184,7 +184,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={ellipse4} alt='ellipse4' />
-          <div>Chisom Obilor</div>
+          <p className='name'>Chisom Obilor</p>
           <div>
             Ikeja
             <span>Customer</span>
@@ -202,7 +202,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={ellipse5} alt='ellipse5' />
-          <div>Adunoluwa Adeyemi</div>
+          <p className='name'>Adunoluwa Adeyemi</p>
           <div>
             Ikeja
             <span>Customer</span>
@@ -221,7 +221,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={ellipse6} alt='ellipse6' />
-          <div>Chidi Okeke</div>
+          <p className='name'>Chidi Okeke</p>
           <div>
             Ikeja
             <span>Customer</span>
@@ -276,7 +276,7 @@ const NavBar = () => {
         <div className='gallery'>
           <img src={vendorImg1} alt='ellipse1' />
 
-          <div>Temi Obadofin</div>
+          <div className='name'>Temi Obadofin</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -291,7 +291,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={vendorImg2} alt='ellipse2' />
-          <div>Promise Ejiofor</div>
+          <div className='name'>Promise Ejiofor</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -307,7 +307,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={vendorImg3} alt='ellipse3' />
-          <div>Feyisola Arinola</div>
+          <div className='name'> Feyisola Arinola</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -322,7 +322,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={vendorImg4} alt='ellipse4' />
-          <div>Karen Ibeh</div>
+          <div className='name'>Karen Ibeh</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -337,7 +337,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={vendorImg5} alt='ellipse5' />
-          <div>Oluchi Uzo</div>
+          <div className='name'>Oluchi Uzo</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -353,7 +353,7 @@ const NavBar = () => {
 
         <div className='gallery'>
           <img src={vendorImg6} alt='ellipse6' />
-          <div>Amos Okafor</div>
+          <div className='name'>Amos Okafor</div>
           <div>VENDOR</div>
 
           <div className='desc'>
@@ -515,8 +515,6 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-
-
     </>
   )
 }
